@@ -1,0 +1,161 @@
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	 font-family: 'Pompiere-Regular';
+}
+@font-face {
+   font-family: 'Pompiere-Regular';
+   src: url(../fonts/Pompiere-Regular.ttf)format('truetype');
+}
+p,a,span,i{
+	font-family: 'Open Sans', sans-serif;
+    transition: 0.5s all ease;
+}
+
+.navbar-default {
+    background-color: #71c6c1;
+    border: none;
+    padding: 1em 0em 2.5em;
+    margin: 0;
+    border-radius: 0;
+}
+.navbar-header a.navbar-brand {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+a.navbar-brand h1 {
+    font-size: 1.1em;
+    padding-bottom: 0;
+}
+a.navbar-brand span {
+    font-size: .4em;
+    padding-top: 0px;
+    display: block;
+    font-weight: 400;
+}
+.navbar-header a.navbar-brand:hover {
+	color: #fff;
+	text-decoration:none;
+    transition: 0.5s all ease;
+}
+.navbar-nav>li>a {
+    padding-top: 26px !important;
+    padding-bottom: 0 !important;
+    transition: 0.5s all ease;
+}
+.navbar-brand {
+    padding: 0px 15px !important;
+    line-height: 7px !important;
+    transition: 0.5s all ease;
+}
+ul.nav.navbar-nav.navbar-right.margin-top {
+	margin-top: 0px;
+	padding:0;
+}
+ul.nav.navbar-nav.navbar-right.margin-top li{
+	margin:0px 10px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.cl-effect-2 a {
+	perspective: 1000px;
+    transition: 0.5s all ease;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #00BFF3;
+	background-color: #0B0354;
+}
+.dropdown-menu {
+    transition: 0.5s all ease;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #eee;
+    transition: 0.5s all ease;
+}
+span.caret:hover {
+	color: #00BFF3;
+    transition: 0.5s all ease;
+}
+.cl-effect-2 a span {
+	font-family: 'Pompiere-Regular';
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	font-size: 20px;
+	font-weight: 300;
+	background: none !important;
+	transform-style: preserve-3d;
+	color: #fff;
+    transition: 0.5s all ease;
+}
+
+.cl-effect-2 a span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #5482ab !important;
+	padding: 0;
+	z-index:999;
+	background: none;
+	content: attr(data-hover);
+	transform: rotateX(-90deg);
+	transform-origin: 50% 0;
+    transition: 0.5s all ease;
+
+}
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+	transform: rotateX(90deg) translateY(-22px);
+	color: #fff;
+    transition: 0.5s all ease;
+}
+
+.csstransforms3d .cl-effect-2 a:hover span::before,
+.csstransforms3d .cl-effect-2 a:focus span::before {
+	background: none;
+	color:#fff !important;
+    transition: 0.5s all ease;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: red !important;
+	font-weight: 600;
+	font-size: 50px;
+	z-index:999;
+    transition: 0.5s all ease;
+}
+span.glyphicon.glyphicon-search.edit {
+	color: #fff;
+}
+.carousel-inner p,.carousel-inner h3{
+    color: #1b1b1b;
+    opacity:0.6;
+    padding-bottom: 20px;
+}
+.carousel-inner p{
+    position:relative;
+    margin-right:-294px;
+}
+.carousel-inner h3{
+    text-indent: 25em;
+}
+.index-works {
+    margin: 5em 0 0;
+}
+#logbtn{
+	float:right;
+	position:relative;
+	margin-right:-598px;
+	margin-top:20px;
+}

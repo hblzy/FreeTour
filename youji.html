@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FreeTour</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/youji.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,800italic,800,700italic,70600,600italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="header" id="home">
+    <!--nav-start-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><h1>FreeTour</h1></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
+                    <li><a href="index.html"><span data-hover="首页">首页</span></a></li>
+                    <li><a href="lineorder.html"><span data-hover="路线定制">路线定制</span></a></li>
+                    <li><a href="about.html"><span data-hover="关于我们">关于我们</span></a></li>
+                    <li><a href="youji.html"><span data-hover="游记">游记</span></a></li>
+                    <li><a href="contact.html"><span data-hover="联系我们">联系我们</span></a></li>
+                </ul>
+                <button type="button" class="btn btn-default btn-sm" id="logbtn"><a href="LoginAndRegister.html">登录/注册</a></button>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </nav>
+    <!-nav-end->
+
+    <!-content-start>
+    <div class="banner-bottom">
+        <div class="col-md-6 banner-bottom-left2 banner-bottom1-left2">
+            <div class="grid">
+                <figure class="effect-lexi">
+                    <img src="images/show2.jpeg" alt="" class="img-responsive">
+                    <figcaption>
+                        <h4>未知的自己</h4>
+                        <p>旅行也如一盒巧克力，对着一个美丽的盒子，你不知道里面的每一颗长什么样子，尝起来会是什么滋味。但不论如何，他们都将是你生命中的风景。</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="col-md-4 banner-bottom-lft1">
+            <h3>01 .</h3>
+            <h4>最好去看一次，而不是听一千遍。</h4>
+            <div class="progress progress1 progress2">
+                <div class="progress-bar progress-bar1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%;">
+                    <span class="sr-only">40% Complete</span>
+                </div>
+            </div>
+            <p>Go to a place you've never been to every year.
+                每个人对旅行的定义都不同，有些人仅仅把旅行当作放松的一种方式，并不在这片海和那片
+                海中寻找不同，得到放松就是他们需要的旅行。而有些人把旅行当作一种学习，他们需要孤身
+                上路，一个人随心所欲的汲取旅行中得到的养分，为自己成长助益。</p>
+        </div>
+        <div class="col-md-2 banner-bottom-left">
+
+        </div>
+        <div class="clearfix"> </div>
+        <div class="col-md-2 banner-bottom-left">
+
+        </div>
+        <div class="col-md-4 banner-bottom-lft1">
+            <h3>02 .</h3>
+            <h4 class="with">世界是一本书，不旅行的人只读了一页。</h4>
+            <div class="progress progress1 progress2">
+                <div class="progress-bar progress-bar1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%;">
+                    <span class="sr-only">40% Complete</span>
+                </div>
+            </div>
+            <p class="exercise">也许就像你曾经对我说的，我们无法，也无需面对全部的迷惑，因为答案就像散落在山谷里的小教堂，看似迫近，却和你站立的地方相隔着千沟万壑。也许你是对的，也许我是对的，只要我们有了智慧，彼此都是对的。路本无所谓起点，过程和终点，目的地本不分山谷，城市和岛屿。</p>
+        </div>
+        <div class="col-md-6 banner-bottom-left2 banner-bottom1-left2">
+            <div class="grid">
+                <figure class="effect-lexi effect-lexi1">
+                    <img src="images/show3.jpeg" alt="" class="img-responsive">
+                    <figcaption class="lexifig">
+                        <h4>旅行，去远方</h4>
+                        <p>过去，现在或者将来时，只记得那时曾有一片最美的天空，而我们的信仰，曾在那踔厉的晨风里，高高飘扬。唯有一路向前，不停下脚步，寻找那片属于我们的海，寻找那条我们可以同行的路。</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-content-end>
+
+    <!-modal-start>
+    <button class="btn btn-lg youjilogo" data-toggle="modal" data-target="#myModal">发布游记</button>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">我的游记</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea style="margin-left:10px;text-align: center;width:548px;height:300px;" placeholder="在这里添加文本"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-modal-end>
+
+    <div class="mainDiv w1100">
+        <div class="youji" style="background-color:#fff;">
+            <div class="baibg"></div>
+            <div id="showListBoxs">
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>芷新蕾</p></div>
+                            <div class="time">2018-06-17 12:59</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">巴厘岛</a></div>
+                        <p>巴厘岛在国人中的火热程度想必不用多做解释，由于签证方便，机票价格合理，巴厘岛成为很多朋友们旅游、度假、蜜月的选择地。巴厘岛迷人的自然风光、别样的民族风情以及良好的路况同样适合环岛骑行。总的来说，巴厘岛的骑行线路和海南岛非常相似，可分东、西、中三线。 西线：Kuta（库塔）—Tabanan—Tanahlot（海神庙）—Antasari—Pekutatan—Negara，约135km；Negara—Pulaki—Lovina（罗威纳海滩）—Singaraja，约125km 东线：Singaraja—Pojok Batu—Abang—Denpassar（登巴萨）—Kuta（库塔），约175km 中线：Kubutambahan—Kintamani—Tirta Empul—Ubud—Denpassar（登巴萨）—Kuta（库塔） 理论上讲，贯穿巴厘岛南北海岸的公路有很多条，但是这一条途经京打马尼山、巴杜尔湖、圣泉寺、圣猴森林公园等景点，值得推荐。
+                        </p>
+                        <div class="number">阅读：<span>186</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/巴厘.jpg" width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>马可</p></div>
+                            <div class="time">2018-06-18 18:32</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">我的南极日志</a></div>
+                        <p>口袋里揣着去南极的船票以后才知道兴奋过度的辗转难眠是这样的,我一边提醒甜甜我们该休息了，一边望着窗外，午夜12点，乌斯怀亚的天边依然有云彩。可是一躺下，一闭眼，就是一片冰山大海。脑子里根本停不下来，画面不断的切换：鲸鱼的大尾巴浮出水面，成千上万的企鹅接踵而至；海豹慵懒的享受着日光浴，信天翁在天空飞旋夺食……
+                            身未行，心已至。实在是睡不着，一闭着眼睛，就好像有无数个小人在眼皮地下用一根根火柴棍撑开，并且全部点燃，使得精神抖擞的腾的一下像火苗飞窜，困意如缕缕青烟飘散。
+                        </p>
+                        <div class="number">阅读：<span>795</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/y5.jpg"  width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>黄韵英</p></div>
+                            <div class="time">2018-06-19 12:27</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">Love me less,love me long.</a></div>
+                        <p>生命本来就是一个美好的存在,在这个繁忙的世界里。我们应该被各种香气所包围，给予自己一个最放松的小角落，随着淡淡的清香，去聆听自己心灵的声音，去感受这个世界所赋予我们的美好。世界就在那里，所以我去了。</p>
+                        <div class="number">阅读：<span>651</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/cat.png"  width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>旅人</p></div>
+                            <div class="time">2018-06-20 14:23</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">父亲眼里的旅行</a></div>
+                        <p>父亲眼里的世界:年轻时气质轩逸，穿着一身黑色的呢装，在书画中留下了对世界的理解！父亲眼里的世界:生命中最珍贵的是家的存在，灰暗的墙上挂着他对世界美好的追求，摆放的椅子是孩子们成长的记忆，箱子里珍藏着对生命时光的留念！ 父亲眼里的世界:每天的太阳和月亮照耀着大地，日子一天天过着，窗外的世界充满着灵魂透气的缝隙，灶台上火苗跳动着生命经历的回想</p>
+                        <div class="number">阅读：<span>220</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/自然.jpeg"  width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>乐一</p></div>
+                            <div class="time">2018-06-21 10:56</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">出发吧，趁我们还年轻</a></div>
+                        <p>天黑了还未到尽头,没有风也没有灯。心绷成了一张弓，雨滴砸落的如此及时。平缓了急促的呼吸，不是迷醉也非颓废，只是路又穿了黑衣。一夜浅睡梦却紧紧相随，焦急的追赶着奔跑的灵魂，只望其背却魅惑无比。雀鸟的啼鸣拽梦出囫囵，路依然明朗端庄如昔，继续踩着不乱的节奏加力。
+                        </p>
+                        <div class="number">阅读：<span>481</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/水彩.jpg"  width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+                <div class="youjiDetail">
+                    <div class="qiu"></div>
+                    <div class="youjiDetailLeft">
+                        <div class="title">
+                            <div class="name"><span>作者</span><p>杜思威</p></div>
+                            <div class="time">2018-06-23 15：07</div>
+                        </div>
+                        <div class="infor"><a href="#" target="_blank">看过那片海和那片天空</a></div>
+                        <p>大概每个人都向往过海边的生活：面朝大海，春暖花开。不仅仅是海子的一句诗，它成为一种永恒的理想。伴着涛声入眠，循着还未苏醒，忘却恼人琐事，看看海，等等日出，夜晚赏赏星光，海风拂面，海水亲吻脚趾。 有人说，生活在海边的人是幸福的，也有人说，是浪漫的，大海也把幻想和梦给了你。 漫天朝霞中，看着初生的太阳升起，带着朝露与期待，开始一天的生活。一天中，无处不在的光线与色彩，遍布身上的每一个毛孔，每一个细胞。
+
+                        </p>
+                        <div class="number">阅读：<span>94</span></div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="photo"><table><tbody><tr><td align="center" valign="middle"><img src="images/140.jpg"  width="140" height="105"></td></tr></tbody></table></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-start-->
+    <div class="footer navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="footer-main">
+                <div class="col-md-3 footet-left">FreeTour 你的不二选择</div>
+                <div class=" footet-right">信息资讯交换平台，提供自由行路线定制服务</div>
+            </div>
+        </div>
+    </div>
+    <!--footer-end-->
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

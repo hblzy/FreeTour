@@ -1,0 +1,182 @@
+.banner-bottom{
+    margin-top:15px;
+    margin-left:2px;
+}
+.banner-bottom-lft1 h3{
+    font-size:2em;
+    color:#fff;
+    margin: 0;
+}
+.banner-bottom-lft1{
+    margin-bottom: 15px;
+}
+.banner-bottom-left1,.banner-bottom-lft1{
+    padding:2.17em 4em 4em;
+    background:#6B8FA8;
+}
+.banner-bottom-lft1 h4{
+    font-size:2em;
+    color:#fff;
+    text-align:right;
+    margin:1em 0 0em;
+    line-height:1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.progress2 {
+    margin:1em 0 0;
+}
+.banner-bottom-lft1 p{
+    margin:2.5em 0 0;
+    color:#E4E4E4;
+    font-size:14px;
+    line-height:1.8em;
+}
+h4.with{
+    text-align:left;
+}
+p.exercise{
+    text-align:right;
+}
+.youjilogo{
+    position: relative;
+    margin-left: 18em;
+    margin-top: -114px;
+}
+.w1100{
+    width:1100px;
+    margin:30px auto;
+}
+
+.youji{
+    margin-bottom:5em;
+    overflow:hidden;
+    position:relative;
+    border-radius: 10px;
+}
+.youji .baibg{
+    width:60px;
+    height:35px;
+    background:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.youji .youjiDetail{
+    margin-left:60px;
+    width:1010px;
+    border-bottom:1px dashed #d9d9d9;
+    float:left;
+    position:relative;
+    margin-bottom:10px;
+}
+.youji .youjiDetail .qiu{
+    width:60px;
+    height:11px;
+    position:absolute;
+    left:-60px;
+    top:31px;
+}
+.youji .youjiDetail .youjiDetailLeft{
+    width:780px;
+    float:left;
+    padding:15px 0;
+}
+.youji .youjiDetail .youjiDetailLeft .title{
+    height:44px;
+    line-height:44px;
+    overflow:hidden;
+}
+.youji .youjiDetail .youjiDetailLeft .title .name{
+    float:left;
+    height:44px;
+    line-height:44px;
+    display:inline-flex;
+}
+.youji .youjiDetail .youjiDetailLeft .title .name span{
+    float:left;
+    height:16px;
+    line-height:16px;
+    font-size:12px;
+    padding:0 5px;
+    border:1px solid #f282a0;
+    border-radius:3px;
+    color:#f282a0;
+    margin:13px 10px 0 0;
+}
+.youji .youjiDetail .youjiDetailLeft .title .name p{
+    color:#4093c5;
+}
+.youji .youjiDetail .youjiDetailLeft .title .time{
+    font-size:14px;
+    float:left;
+    margin-left:50px;
+    color:#999;
+}
+.youji .youjiDetail .youjiDetailLeft .infor{
+    max-height:60px;
+    line-height:30px;
+    font-size:20px;
+    overflow:hidden;
+    margin:10px 0;
+}
+.youji .youjiDetail .youjiDetailLeft .number{
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    color:#999;
+    float:left;
+}
+.youji .youjiDetail .youjiDetailLeft .number span{
+    color:#1bc1cd;
+}
+.youji .youjiDetail .youjiDetailLeft .cz{
+    float:right;
+    height:30px;
+}
+.youji .youjiDetail .youjiDetailLeft .cz a{
+    float:left;
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+    color:#73c5cb;
+    margin-left:20px;
+}
+.youji .youjiDetail .youjiDetailLeft .cz a img{
+    float:left;
+    margin:5px 5px 0 0;
+}
+.youji .youjiDetail .photo {
+    width:140px;
+    height:140px;
+    float:right;
+    margin:13px 0;
+    overflow:hidden;
+}
+.youji .youjiDetail .photo td {
+    width:140px;
+    height:140px;
+}
+.youji .youjiDetail .photo img { border-radius:10px; }
+/*--footer--start*/
+.footer {
+    width:100%;
+    height:30px;
+    background: #1b1b1b;
+    opacity:0.6;
+    margin-top:20px;
+    text-align: center;
+}
+.footet-left,.footet-right{
+    color: #fff;
+    font-size: 1.2em;
+
+}
+.footet-left{
+    margin-left:160px;
+    margin-top:1px;
+}
+.footet-right{
+    margin-right:-5px;
+    margin-top:3px;
+}
+/*--footer--end*/
