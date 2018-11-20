@@ -23,11 +23,13 @@
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="index.html"><span data-hover="首页">首页</span></a></li>
                     <li><a href="lineorder.html"><span data-hover="路线定制">路线定制</span></a></li>
-                    <li><a href="about.html"><span data-hover="关于我们">关于我们</span></a></li>
+                    <li><a href="#"><span data-hover="关于我们">关于我们</span></a></li>
                     <li><a href="youji.html"><span data-hover="游记">游记</span></a></li>
                     <li><a href="contact.html"><span data-hover="联系我们">联系我们</span></a></li>
                 </ul>
-                <button type="button" class="btn btn-default btn-sm" id="logbtn"><a href="LoginAndRegister.html">登录/注册</a></button>
+                <button class="btn btn-default btn-sm" id="logbtn">
+                    <span>登录/注册</span>
+                </button>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -38,8 +40,8 @@
     </section>-->
     <section class="banner">
         <div class="row">
-            <div class="col-md-6"><img src="images/希腊3.jpg"></div>
-            <div class="col-md-6"><img src="images/希腊3.jpg"></div>
+            <div class="col-md-6 bgBox"><img src="images/希腊3.jpg"></div>
+            <div class="col-md-6 bgBox"><img src="images/希腊3.jpg"></div>
         </div>
     </section>
     <div class="advantages">
@@ -144,5 +146,12 @@
     </div>
     <!--footer-end-->
 </div>
+
+<script src="js/jquery.min.js"></script>
+<script>
+    $('#logbtn').click(function () {
+        window.location = 'LoginAndRegister.html'
+    })
+</script>
 </body>
 </html>

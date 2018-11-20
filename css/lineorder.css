@@ -80,6 +80,11 @@ span.menu {
     text-align: center;
 }
 
+.bgBox img{
+    width: 740px;
+    height: 454px;
+}
+
 /*--footer--start*/
 .footer {
     width:100%;

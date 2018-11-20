@@ -154,8 +154,21 @@ span.glyphicon.glyphicon-search.edit {
     margin: 5em 0 0;
 }
 #logbtn{
+	width: 68px;
+	height: 30px;
 	float:right;
-	position:relative;
 	margin-right:-598px;
-	margin-top:20px;
+	margin-top:22px;
+	border-radius: 2em;
+	color: #7777776e;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+}
+
+#logbtn span{
+	margin-left: -2px;
+}
+.carousel-inner .item:nth-child(5),.item:nth-child(6),.item:nth-child(7){
+	height: 454px;
 }

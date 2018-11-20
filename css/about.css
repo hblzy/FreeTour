@@ -160,6 +160,12 @@
     width: 100%;
     height:900px;
 }
+
+.bgBox img{
+    width: 735px;
+    height: 454px;
+}
+
 /*--footer--start*/
 .footer {
     width:100%;
